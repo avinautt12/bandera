@@ -18,12 +18,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <!-- Franja verde -->
-        <View
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#006847"/>
+            android:background="@color/verde" >
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
+            <View
+                android:layout_marginStart="20dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
+        </LinearLayout>
 
         <!-- Franja blanca con logo -->
         <LinearLayout
@@ -41,15 +54,27 @@
                 android:rotation='90' />
         </LinearLayout>
 
-        <!-- Franja roja -->
-        <View
+        <LinearLayout
+            android:gravity="end"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#d52b1e"/>
+            android:background="@color/rojo" >
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
+            <View
+                android:layout_marginStart="20dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
+        </LinearLayout>
+
 
     </LinearLayout>
-
-    <!-- Texto de bienvenida -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

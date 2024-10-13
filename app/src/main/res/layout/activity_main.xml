@@ -22,6 +22,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/verde" >
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
+            <View
+                android:layout_marginStart="20dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
         </LinearLayout>
 
         <LinearLayout
@@ -45,6 +57,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/rojo" >
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
+            <View
+                android:layout_marginStart="20dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/amarillo"/>
+
         </LinearLayout>
 
 
